@@ -15,3 +15,8 @@ Bind the container port to the port you want it exposed in local host
 $ docker ps
 ````
 checks out for running services. Head to your browser and open localhost and your intended port.
+````
+$ docker logs 89566aa5bd0e
+````
+Use the container ID to validate the port running
+
